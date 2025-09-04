@@ -1,10 +1,71 @@
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:400;
     color: brown;
+    text-align: center;
+    font-size: 3rem;
 }
 
 body{ 
     background-color: burlywood;    
-
 }
+
+header {
+    background-color: rgb(196, 255, 201);
+    color: darkslategrey;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+font-size: 2rem;
+}
+
+body {
+    background-color: rgb(135, 222, 154);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(196, 228, 255);
+    color: darkslategrey;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin: 20px auto;      /* Centraliza horizontalmente */
+    max-width: 600px;       /* Define uma largura máxima */
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:400;
+    color: brown;
+    text-align: center;
+    font-size: 3rem;
+}
+
+a {
+    color: darkslategrey;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: brown;
+    cursor: pointer;
+}
+
+footer {
+    background: #fffbe6;
+    color: #8b5c2a;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 2px solid #deb887;
+    margin-top: 40px;
+    font-size: 1.1rem;
+}
+
